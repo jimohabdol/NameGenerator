@@ -49,9 +49,9 @@ function loadNames(event) {
       let html = '<h2>Generate Names</h2>';
       html += '<ul class="list">';
       names.forEach((n) => {
-        html += `<li>${names.name}</li>`;
+        html += `<li>${n.name}</li>`;
       });
-      console.log(names);
+      //console.log(names);
       html+= '</ul>';
       document.querySelector('#result').innerHTML = html;
     }
